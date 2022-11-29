@@ -1,1 +1,28 @@
-
+#include <iostream>
+using namespace std;
+int main()
+{
+    int kolon1;
+    int kolon2;
+    cout << "Type the column number ";
+    cin >> kolon1;
+    for(int i = 1; i <= kolon1; ++i)
+    {
+        for(int j = 1; j <= i; ++j)
+        {
+            cout << "* ";
+        }
+        cout << "\n";
+    }
+    cout<<"Type the column number";
+    cin>>kolon2;
+    for(int i = kolon2; i >= 1; --i)
+    {
+        for(int j = 1; j <= i; ++j)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+    //Maybe the variable names is confuse. Thats because im coding in Turkish.//
+}
