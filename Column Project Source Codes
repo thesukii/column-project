@@ -16,7 +16,7 @@ int main()
     }
     cout<<"Type the column number";
     cin>>colum2;
-    for(int i = kolon2; i >= 1; --i)
+    for(int i = column2; i >= 1; --i)
     {
         for(int j = 1; j <= i; ++j)
         {
@@ -24,5 +24,4 @@ int main()
         }
         cout << endl;
     }
-    //Maybe the variable names is confuse. Thats because im coding in Turkish.//
 }
