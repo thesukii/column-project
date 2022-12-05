@@ -27,12 +27,12 @@ int main()
     if you want your piramite left>right u just add ++ before "i"
     if you want your piramite right>left you just add -- before "i" */
     
-    /* this loop is working like first one but not in same way. First loop will generate your piramite left to>> right. 
+    /* this loop is working like first one but not in same way. First loop will generate your piramite left>right. 
     second one will generate right to left and you piramite will be ready */
     {
         for(int j = 1; j <= i; ++j)
         {
-            cout << "* ";
+            cout << "* "; // you can change this however u want to display in your piramite it will work in characters numbers or special char. //
         }
         cout << endl;
     }
