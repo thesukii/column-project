@@ -22,9 +22,10 @@ int main()
     }
     cout<<"Type the column number";
     cin>>colum2;
-    for(int i = column2; i >= 1; --i) // as u can see the difference between left>right and right>left is in (25 , 30,31)
+    for(int i = column2; i >= 1; --i) 
+    /* as u can see the difference between left>right and right>left is in (25 , 30,31)
     if you want your piramite left>right u just add ++ before "i"
-    if you want your piramite right>left you just add -- before "i"
+    if you want your piramite right>left you just add -- before "i" */
     
     /* this loop is working like first one but not in same way. First loop will generate your piramite left to>> right. 
     second one will generate right to left and you piramite will be ready */
